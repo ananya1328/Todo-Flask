@@ -1,0 +1,40 @@
+{% extends 'base.html' %} {% block title %} About {% endblock title %} {% block
+body %}
+<div class="container mt-5">
+  <h1>About MyTodo</h1>
+  <p class="lead">
+    MyTodo is a simple and efficient task management web application built using
+    Python, Flask, and Bootstrap. It helps you keep track of your daily tasks
+    and manage your time effectively.
+  </p>
+
+  <h3>🛠️ Features:</h3>
+  <ul>
+    <li>Add new tasks with a title and description</li>
+    <li>View all your added tasks in a clean table format</li>
+    <li>Automatically stores the date and time of creation</li>
+    <li>Update or delete tasks as needed</li>
+  </ul>
+
+  <h3>💡 Why I Built This:</h3>
+  <p>
+    This project was created as part of my learning journey in Python and web
+    development. It combines core backend logic using Flask with frontend
+    styling using Bootstrap 5. It helped me understand routing, templating,
+    handling form submissions, and working with databases in Flask.
+  </p>
+
+  <h3>📦 Tech Stack:</h3>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, Bootstrap 5</li>
+    <li><strong>Backend:</strong> Python, Flask</li>
+    <li><strong>Database:</strong> SQLite (via SQLAlchemy ORM)</li>
+  </ul>
+
+  <p class="text-muted mt-4">
+    Thank you for using MyTodo! I hope it helps make your day a little more
+    productive.
+  </p>
+</div>
+
+{% endblock body %}
