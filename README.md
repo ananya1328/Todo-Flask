@@ -16,10 +16,10 @@ Database: SQLite
 Deployment: Render
 
 📂 Project Structure
-├── __pycache__/            # Python cache files (auto-generated)
-├── app.py                  # Main Flask application
-├── instance/
-│   └── todo.db             # SQLite database file
+==>__pycache__/            # Python cache files (auto-generated)
+==>app.py                  # Main Flask application
+==>instance/
+│   └──todo.db             # SQLite database file
 ├── Procfile                # Render deployment configuration
 ├── requirements.txt        # Python dependencies
 ├── templates/              # HTML templates (Jinja2)
