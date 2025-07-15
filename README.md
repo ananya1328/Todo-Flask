@@ -15,19 +15,6 @@ Frontend: HTML, CSS, Bootstrap (optional)
 Database: SQLite
 Deployment: Render
 
-📂 Project Structure
-==>__pycache__/            # Python cache files (auto-generated)
-==>app.py                  # Main Flask application
-==>instance/
-│   └──todo.db             # SQLite database file
-├── Procfile                # Render deployment configuration
-├── requirements.txt        # Python dependencies
-├── templates/              # HTML templates (Jinja2)
-│   ├── about.html
-│   ├── base.html
-│   ├── index.html
-│   └── update.htm
-
 
 📦 How to Run Locally
 git clone https://github.com/ananya1328/todo-flask.git
